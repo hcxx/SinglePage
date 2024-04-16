@@ -61,7 +61,7 @@ button.btn {
 
 /* title section */
 main .site-title {
-    background: url('../assets/img/bg.jpg');
+    background: url('../assets/img/bg.webp');
     background-size: cover;
     height: 100vh;
     justify-content: center;
