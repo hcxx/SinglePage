@@ -1,0 +1,90 @@
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* 定义全局变量 */
+:root {
+    /* 主题颜色 */
+    --text-gray: #354954;
+    --text-light: #686666da;
+    --white: #ffff;
+    --mignight: #104f55;
+    --sky: linear-gridient(120deg, #alc4fd 0%, #c2e9fb 100%);
+}
+
+/* 全局公共类 */
+a {
+    text-decoration: none;
+    color: var(--text-gray);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+button.btn {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 5vw;
+}
+
+.text-gray {
+    color: var(--text-gray);
+}
+
+.p {
+    color: var(--text-gray);
+}
+
+/* title section */
+main .site-title {
+    background: url('../assets/img/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+}
+
+main .site-title .site-background {
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title h2,
+h3 {
+    margin: 1.5rem;
+}
+
+main .site-title .btn {
+    margin: 1.8rem;
+    background-image: var(--sky);
+}
+
+main .site-title .btn:hover {
+    background: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+}
